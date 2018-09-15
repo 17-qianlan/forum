@@ -1,0 +1,15 @@
+{
+  "name": "singin",
+  "version": "1.0.0",
+  "dependencies": {
+    "koa": "latest",
+    "koa-router": "latest",
+    "koa-static": "latest",
+    "koa-body": "latest",
+    "koa-views": "latest",
+    "@koa/cors": "latest",
+    "pug": "latest",
+    "mongoose": "latest",
+    "koa-session": "latest"
+  }
+}

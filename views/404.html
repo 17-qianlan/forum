@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404页面</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="title">
+      <h1>访问的路由不存在</h1>
+      <p></p>
+    </div>
+    <script>
+      (function(){
+          let oP = document.querySelector("p");
+          let num = 4;
+          oP.innerHTML = num + "秒后返回首页";
+          let timer = setInterval(function(){
+              num--;
+              oP.innerHTML = num + "秒后返回首页";
+              if( num === 1 ) {
+                  clearInterval(timer);
+                  window.location.href = "http://localhost:3000/page/1";
+              };
+          },1000)
+      })();
+    </script>
+  </body>
+</html>

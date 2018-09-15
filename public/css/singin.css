@@ -1,0 +1,323 @@
+@import "base.css";
+.wrap{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.wrap .left{
+    width: 1100px;
+    height: 100%;
+    margin-left: 10%;
+}
+.wrap .left li{
+    width: 100px;
+    height: 100%;
+    padding: 0 10px;
+    background: #40ffc0;
+    margin-left: 1px;
+}
+.wrap .right{
+    width: 530px;
+    height: 100%;
+    margin-right: 5%;
+}
+.wrap .right li{
+    width: 150px;
+    height: 100%;
+    padding: 0 10px;
+    background: #7fecff;
+    margin-left: 5px;
+}
+.wrap .right li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*登录后的*/
+.wrap .right li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*登录部分*/
+.content{
+    width: 1100px;
+    margin: 50px auto;
+}
+.content .inp{
+    width: 100%;
+    height: 100%;
+}
+
+.content .inp input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.content .inp .sub{
+    width: 100px;
+    background: #7fecff;
+    text-align: center;
+    cursor: pointer;
+}
+.content .article{
+    margin-top: 50px;
+    font-size: 25px;
+}
+/*文章发表部分*/
+.content .title{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.content .title .tip,.content .title .tit{
+    width: 200px;
+    height: 50px;
+}
+.content .title .tip select{
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    text-indent: 10px;
+}
+.content .title .tit{
+    margin-left: 50px;
+}
+.content .title .tit input{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    text-indent: 10px;
+}
+.content .title .submit{
+    width: 100px;
+    height: 50px;
+    background: #ddd;
+}
+.content .title .submit input{
+    width: 100%;
+    height: 100%;
+    color: #ffbf6d;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.content .title .inp{
+    width: 800px;
+    height: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.content .publish{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.content  a{
+    display: block;
+    margin-top: 10px;
+    font-size: 25px;
+}
+/*//文章列表*/
+.content .articleL{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    background: #ccc;
+}
+.content .articleL li{
+    position: relative;
+    width: 100%;
+    /*height: 70px;*/
+    font-size: 20px;
+}
+.content .articleL li .left{
+    width: 70px;
+    height: 70px;
+    margin: 5px 0 0 5px;
+}
+.content .articleL li .left img{
+    border-radius: 50%;
+}
+.content .articleL li .center{
+    min-width: 60px;
+    height: 100%;
+}
+.content .articleL li .center .tips{
+    background: #ff594f;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.content .articleL li .center .user{
+    color: #2f66dd;
+    text-align: center;
+}
+.content .articleL li .right {
+    margin-left: 10px;
+}
+.content .articleL li .right .cont{
+    border-bottom: 1px solid #eee;
+}
+.content .public{
+    height: 24px;
+    padding: 3px 10px;
+    line-height: 30px;
+}
+.content .btn {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content .btn .btnlist{
+    width: 100%;
+}
+.content .btn .btnlist a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.content .articleL li a .count{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: red;
+}
+/*文章详情*/
+.content .arti{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    background: #25e1ee;
+}
+.content .arti li{
+    width: 50%;
+    margin: auto;
+}
+.content .arti li:nth-child(1){
+    width: 170px;
+    height: 50px;
+    margin: 10px auto;
+    line-height: 50px;
+}
+.content .arti li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.content .arti li p{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.content .arti li:nth-child(2){
+    width: 220px;
+    height: 30px;
+    font-size: 15px;
+    color: red;
+    line-height: 30px;
+}
+.content .arti li span{
+    display: inline-block;
+    margin-left: 20px;
+}
+.content .arti .cont{
+    width: 80%;
+    min-height: 200px;
+    margin: 10px 0 0 0;
+    border: 1px solid #ff0067;
+    color: blue;
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 50px;
+}
+/*文章评论*/
+.content .comt{
+    width: 100%;
+    min-height: 150px;
+    margin-top: 20px;
+}
+.content .comt .inp{
+    display: none;
+}
+.content .comt .save{
+    width: 100%;
+    height: 100px;
+    color: red;
+    font-size: 20px;
+    text-indent: 10px;
+}
+.content .comt .sub{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    background: #b84742;
+    color: #ddbbbe;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+/*文章详情页*/
+.content .comtd{
+    width: 100%;
+    margin-top: 50px;
+    background: #ccc;
+}
+.content .comtd li{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0;
+    margin-top: 10px;
+    background: #58804f;
+}
+.content .comtd li .img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
+.content .comtd li .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.content .comtd li .user{
+    float: left;
+    width: 1000px;
+    height: 50px;
+    border-bottom: 1px solid red;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.content .comtd li .user b{
+    font-size: 25px;
+}
+.content .comtd li .user span{
+    margin-left: 20px;
+    font-size: 14px;
+}
+.content .comtd li .c{
+    float: left;
+    width: 1000px;
+    min-height: 50%;
+    margin: 20px 70px;
+    font-size: 18px;
+    font-weight: bold;
+}
